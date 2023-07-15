@@ -4,7 +4,7 @@ def num_plus():
     try:
         until = int(input('''Choose a variant:
     (1) - How much calculations
-    (2) - Until a number (info)-the string of numbers will do one more calculation above the maximum number, because it does one more calculation
+    (2) - Until a number (info)-the string of numbers will do one more calculation above the maximum number, because it does one more calculation by default
     >>:'''))
     except ValueError:
         print(" You can't add a string, it have to be an integer!")
